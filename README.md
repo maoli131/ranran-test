@@ -31,3 +31,13 @@ Four stages of git:
 2. Staged: git add files to the git repo; changes staged for commit, but not commited <====
 3. Commit: git commit -m "message". This creates a timestamp (or a snapshot of history) in your git repo
 4. Make some file changes
+
+Add remote git repository. This connects a local git repo to a remote git repo (on Github)
+```
+git remote add origin https://github.com/maoli131/ranran-test.git
+```
+
+Push local commits to remote
+```
+git push -u origin master
+```
