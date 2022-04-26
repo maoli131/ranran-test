@@ -26,6 +26,8 @@ git init
 git status
 ```
 
-Three stages of git:
-1. Untracked: Files created, but not track by git <====
-2. 
+Four stages of git:
+1. Untracked / Unstaged: Files created, but not track by git 
+2. Staged: git add files to the git repo; changes staged for commit, but not commited <====
+3. Commit: git commit -m "message". This creates a timestamp (or a snapshot of history) in your git repo
+4. Make some file changes

@@ -2,6 +2,8 @@
 using namespace std;
 
 int main() {
-    cout << "I love ranran in C" << endl;
+    for (int i = 0; i < 10; i++) {
+        cout << "I love ranran in C" << endl;
+    }
     return 0;
 }
